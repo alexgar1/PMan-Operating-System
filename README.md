@@ -1,6 +1,6 @@
 # Overview
 This is a script written in C meant to emulate a simple operating system that can create and manage
-processes. This script is only meant to be ran on the linux.csc.uvic.ca server.
+processes.
 
 ## Compilation
 Ensure the following files are all in your current directory:
