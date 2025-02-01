@@ -50,24 +50,45 @@ If user enters an invalid pid pman will print:
 
 ## EXAMPLE
 PMan: > bg ./inf tag 3
+
 Started background process with PID 45137
+
 PMan: > bglist
+
 45137: ./inf
+
 Total background jobs: 1
+
 PMan: > bgstop 45137
+
 Process 45137 stopped
+
 PMan: > pstat 45137
+
 comm: (inf)
+
 state: T
+
 utime: 0
+
 stime: 0
+
 rss: 145
+
 voluntary_ctxt_switches: 19
+
 nonvoluntary_ctxt_switches: 1
+
 PMan: > bgstart 45137
+
 Process 45137 started
+
 PMan: > bgkill 45137
+
 Process 45137 has been killed
+
 PMan: > bglist
+
 Total background jobs: 0
+
 PMan: > 
