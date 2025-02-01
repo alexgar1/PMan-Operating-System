@@ -14,25 +14,25 @@ Type 'make' into the terminal to compile.
 
 ## Usage in the terminal
 
-Initiate:
+### Initiate:
 ./pman
 
-Start a background process:
+### Start a background process:
 bg ./[process path] [arg_1] ... [arg_n]
 
-List background processes:
+### List background processes:
 bglist
 
-Kill a background process:
+### Kill a background process:
 bgkill [pid]
 
-Stop a background process:
+### Stop a background process:
 bgstop [pid]
 
-Continue a background process:
+### Continue a background process:
 bgstart [pid]
 
-Show status of a process
+### Show status of a process
 pstat [pid]
 
 returns:
@@ -48,7 +48,7 @@ If user enters an invalid pid pman will print:
 "Process [pid] not found"
 
 
-EXAMPLE
+## EXAMPLE
 PMan: > bg ./inf tag 3
 Started background process with PID 45137
 PMan: > bglist
